@@ -1,0 +1,9 @@
+.tournament {
+  background: var(--background_first);
+}
+
+@media (min-width: 650px) {
+  .tournament {
+    background: var(--background_second);
+  }
+}

@@ -1,0 +1,9 @@
+.team {
+  background: var(--background_first);
+}
+
+@media (min-width: 650px) {
+  .team {
+    background: var(--background_second);
+  }
+}

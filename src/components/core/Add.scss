@@ -1,0 +1,32 @@
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  transition: var(--transition);
+  background: var(--first);
+  opacity: 25%;
+  border: none;
+  
+  z-index: 9;
+
+  &:disabled {
+    background: grey;
+    &:hover {
+      transform: none;
+      cursor: auto;
+      box-shadow: none;
+    }
+  }
+  
+  &:hover {
+    border: var(--border);
+    opacity: 100%;
+  }
+}
