@@ -2,7 +2,7 @@ import React, { FC, ReactElement, useRef } from 'react';
 import './Card.scss';
 
 import remove from 'assets/error.svg';
-import useDebounceEffect from 'hooks/core/useDebounce';
+import useDebounceEffect from 'hooks/core/useDebounce.hook';
 import { CardStatus } from 'common/constants';
 
 type CardProps = {

@@ -1,4 +1,4 @@
-import { commonId } from 'domain/models/common';
+import { commonId } from 'domain/models/common.model';
 import { IPower } from 'domain/models/power';
 
 export interface PowerCommand {

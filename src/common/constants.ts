@@ -8,3 +8,9 @@ export enum paths {
 export const regex = {
 	numeric: new RegExp('^[0-9]+$'),
 };
+
+export enum CardStatus {
+	new = 'new',
+	editing = 'editing',
+	error = 'error',
+}
